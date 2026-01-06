@@ -1,3 +1,46 @@
-venv/
+# Python
 __pycache__/
-.env
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+venv/
+env/
+.env/
+*.venv/
+
+# Flask instance folder
+instance/
+*.sqlite3
+
+# Logs
+*.log
+
+# Static / compiled assets (optional, if you build them locally)
+*.pyc
+/static/__pycache__/
+*.css.map
+*.js.map
+
+# IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Python test / coverage
+.coverage
+htmlcov/
+.tox/
+.nox/
+.pytest_cache/
+.cache/
